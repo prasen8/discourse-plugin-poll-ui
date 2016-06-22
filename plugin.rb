@@ -7,3 +7,4 @@
 enabled_site_setting :user_activity_enabled
 
 register_asset "javascripts/discourse/templates/user/activity.hbs"
+register_asset "javascripts/discourse/templates/connectors/user-data-metadata.hbs"
