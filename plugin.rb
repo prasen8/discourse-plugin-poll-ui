@@ -1,11 +1,9 @@
-# name: discourse-plugin-poll-ui
-# about: Add a button to create a poll
-# version: 0.6.1
-# authors: Matthew Wilkin
-# url: https://github.com/cpradio/discourse-plugin-poll-ui
+# name: user-activity
+# about: change activity page
+# version: 0.0.1
+# authors: P
+# url: https://github.com/prasen8/user-activity
 
-enabled_site_setting :poll_ui_enabled
+enabled_site_setting :user_activity_enabled
 
-register_asset "javascripts/discourse/templates/poll-ui.hbs"
-
-register_asset 'stylesheets/poll-ui.scss'
+register_asset "javascripts/discourse/templates/user/activity.hbs"
