@@ -1,7 +1,4 @@
 plugins:
-  poll_ui_enabled:
+  user_activity_enabled:
     default: true
-    client: true
-  poll_ui_provide_answers:
-    default: false
     client: true
